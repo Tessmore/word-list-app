@@ -1,0 +1,21 @@
+.search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    padding: 0.8rem 1.6rem;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+
+    input {
+        padding: 0.2rem;
+    }
+}
+
+.word-list {
+    list-style: none;
+
+    li {
+        margin: 0.2rem 0;
+    }
+}
