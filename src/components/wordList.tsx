@@ -1,5 +1,5 @@
-import React from 'react';
-import './wordlist.css';
+import React from "react";
+import "./wordlist.css";
 
 interface WordListProps {
   words: string[];
