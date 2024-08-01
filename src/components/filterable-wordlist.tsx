@@ -1,17 +1,24 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import WordList from "./wordList";
 import "./wordlist.css";
 
 const FilterableWordList: React.FC<{ words: string[] }> = ({ words }) => {
   const [filter, setFilter] = useState("");
 
+  // Handle input
   const handleFilterChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFilter(e.target.value);
+    setFilter(e.target.value.trim().toUpperCase());
   };
 
-  const filteredWords = words.filter((word) =>
-    word.toLowerCase().includes(filter.toLowerCase()),
-  );
+  // Transform all non characters to match "any character" so
+  // you can type `F_O` and `B*R` et cetera.
+  const transform = (input: string): string => {
+    return input.replace(/[^A-Z]/g, ".");
+  }
+
+  const lookup = useMemo(() => new RegExp(transform(filter), 'i'), [filter]);
+
+  const filteredWords = words.filter((word) => lookup.test(word));
 
   return (
     <div>
