@@ -3,6 +3,8 @@ Wordle word list
 
 Find `Wordle` candidates by  matching a pattern.
 
+![image](https://github.com/user-attachments/assets/2d3158b8-292f-4809-8a20-f048b56f5b3b)
+
 ## Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
