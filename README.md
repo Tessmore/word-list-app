@@ -1,7 +1,7 @@
 Wordle word list
 ================
 
-Filter `Wordle` word list by text input. For example, to find all words matching the `__A_E` pattern.
+Find `Wordle` candidates by  matching a pattern.
 
 ## Scripts
 
