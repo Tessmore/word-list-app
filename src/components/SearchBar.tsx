@@ -43,6 +43,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
                     onChange={handleFilterChange}
                 />
             </div>
+
             <div>
                 <input
                     type="text"

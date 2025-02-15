@@ -7,11 +7,24 @@
     background-color: white;
     border-bottom: 1px solid #ccc;
 
-    input {
-        padding: 0.2rem;
-    }
-
     display: flex;
     justify-content: flex-start;
     column-gap: 1rem;
+}
+
+.search-bar > div {
+  display: flex;
+  align-items: center;
+  min-width: 0; /* Allow div to shrink below content size */
+}
+
+.search-bar input {
+  padding: 0.2rem;
+  width: 100%; /* Fill available space */
+  min-width: 0; /* Allow input to shrink below content size */
+}
+
+.search-icon {
+  margin-right: 0.5rem;
+  flex-shrink: 0; /* Prevent icon from shrinking */
 }
