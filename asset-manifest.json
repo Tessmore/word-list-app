@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/word-list-app/static/css/main.6adb527b.css",
-    "main.js": "/word-list-app/static/js/main.822ac7b1.js",
+    "main.css": "/word-list-app/static/css/main.835a7cdb.css",
+    "main.js": "/word-list-app/static/js/main.6012a2ff.js",
     "static/js/453.6b5bb984.chunk.js": "/word-list-app/static/js/453.6b5bb984.chunk.js",
     "index.html": "/word-list-app/index.html",
-    "main.6adb527b.css.map": "/word-list-app/static/css/main.6adb527b.css.map",
-    "main.822ac7b1.js.map": "/word-list-app/static/js/main.822ac7b1.js.map",
+    "main.835a7cdb.css.map": "/word-list-app/static/css/main.835a7cdb.css.map",
+    "main.6012a2ff.js.map": "/word-list-app/static/js/main.6012a2ff.js.map",
     "453.6b5bb984.chunk.js.map": "/word-list-app/static/js/453.6b5bb984.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adb527b.css",
-    "static/js/main.822ac7b1.js"
+    "static/css/main.835a7cdb.css",
+    "static/js/main.6012a2ff.js"
   ]
 }
